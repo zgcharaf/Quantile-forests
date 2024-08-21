@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: quantile_forest
+Version: 0.1.0
+Summary: A library for applying quantile regression techniques to tree-based models.
+Home-page: https://github.com/zgcharafquantile_forest
+Author: Your Name
+Author-email: zgcharaf@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: optuna
+Requires-Dist: matplotlib
+
+# Quantile Forest
+
+Quantile Forest is a Python library for applying quantile regression techniques to Random Forests, including RF-GAP (Random Forest with Generalized Additive Proximity) and QRF (Quantile Regression Forests).
+
+## Installation
+
+```bash
+pip install quantile_forest
